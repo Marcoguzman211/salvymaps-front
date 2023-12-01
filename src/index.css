@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.test1 {
+  border: 2px solid red;
+}
+
+.test2 {
+  border: 2px solid blue;
+}
+
+.test3 {
+  border: 2px solid green;
+}
+
+.test4 {
+  border: 2px solid yellow;
+}
+
+.test5 {
+  border: 2px solid purple;
+}
+
+.test6 {
+  border: 2px solid orange;
+}
+
+.test7 {
+  border: 2px solid pink;
+}
+
+.test8 {
+  border: 2px solid brown;
+}
