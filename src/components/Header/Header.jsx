@@ -92,10 +92,10 @@ const Header = () => {
             </div>
 
             <Link
-              to="/map"
+              to="/"
               className="block shrink-0 rounded-full bg-white p-2.5 text-gray-600 shadow-sm hover:text-gray-700"
             >
-              <span className="sr-only">World Map</span>
+              <span className="sr-only">Home</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -107,12 +107,27 @@ const Header = () => {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  d="M22,12 C22,6.477 17.523,2 12,2 C6.477,2 2,6.477 2,12 C2,17.523 6.477,22 12,22 C17.523,22 22,17.523 22,12 Z"
+                  d="M3 9.5v11c0 .83.67 1.5 1.5 1.5h15c.83 0 1.5-.67 1.5-1.5v-11"
                 />
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  d="M2,12 L22,12 M12,2 C13.656,2 15,6.477 15,12 C15,17.523 13.656,22 12,22 C10.344,22 9,17.523 9,12 C9,6.477 10.344,2 12,2 Z"
+                  d="M9 22V12h6v10"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21 10.5V7a2 2 0 00-2-2h-3a2 2 0 00-2 2v1.5"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 3L5 7"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15 3l4 4"
                 />
               </svg>
             </Link>
@@ -131,7 +146,7 @@ const Header = () => {
               className="h-10 w-10 rounded-full object-cover"
             />
           </a> */}
-          <Link to="/" className="block shrink-0">
+          <Link to="/map" className="block shrink-0">
             <span className="sr-only">Home</span>
             <img
               alt="Man"
